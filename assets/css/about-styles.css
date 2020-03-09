@@ -1,19 +1,53 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-/* body, wrapper {
-  min-height:100vh;
-  height:500px;
-} */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-image: url('../img/triangle.PNG');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right:20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.gradient {
+  background-image:
+    radial-gradient(
+      #076ba3,
+      white
+    );
+}
+
+.display-4 {
+  font-weight: bolder;
+}
 
 .profile-photo {
   width: 18%;
   height: 18%;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 
 
 
+/* <a href="https://www.vecteezy.com/free-vector/pattern-background">Pattern Background Vectors by Vecteezy</a> */
 
 
 
@@ -29,15 +63,6 @@
   
 }
 
-
-/* ---Firefox Bug Fix --
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-} */
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
