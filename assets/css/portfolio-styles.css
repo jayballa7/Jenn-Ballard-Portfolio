@@ -6,14 +6,14 @@ html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   color: white;
-  background-image: url('../img/odesza.jpg');
-  -webkit-background-size: cover;
+  background-image: url('../img/black-repeat.png');
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 250vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center center; */
+  background-repeat: repeat;
+  /* background-attachment: fixed; */
 }
 
 .navbar {
@@ -48,13 +48,17 @@ html, body {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
-  color:white;
   text-shadow: 4px 4px black;
-  font-weight:bolder;
 }
 
-footer {
-    color: white;
+div.card {
+    color: black;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-bottom: 3px solid black;
 }
 
 /*---Media Queries --*/
@@ -68,13 +72,10 @@ footer {
   .display-4 {
     font-size: 160%;
   }
+
+  div.card {
+    margin-bottom: 30px;
+    border: solid 3px black;
+    border-radius: 10px;
 }
-
-
-/*
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
+}
