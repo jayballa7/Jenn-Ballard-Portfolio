@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-image: url('../img/odesza.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 250vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  padding: .9rem;
+  border-bottom: 5px solid black;
+  font-weight: bolder;
+}
+
+.navbar-nav li {
+  padding-right: 10%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+.gradient {
+  background-image:
+    radial-gradient(
+      #076ba3,
+      #99d4f5,
+      white
+    );
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.display-4 {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  color:white;
+  text-shadow: 4px 4px black;
+  font-weight:bolder;
+}
+
+footer {
+    color: white;
+}
+
+/*---Media Queries --*/
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 200%;
+  }
+
+}
+@media (max-width: 576px) {
+  .display-4 {
+    font-size: 160%;
+  }
+}
+
+
+/*
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

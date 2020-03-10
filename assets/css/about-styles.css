@@ -4,113 +4,106 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   color: white;
-  background-image: url('../img/triangle.PNG');
+  background-image: url('../img/odesza.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 250vh;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar {
-  padding: .8rem;
+  padding: .9rem;
+  border-bottom: 5px solid black;
+  font-weight: bolder;
 }
 
 .navbar-nav li {
-  padding-right:20px;
+  padding-right: 10%;
 }
 
 .navbar-brand {
   font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 .gradient {
   background-image:
     radial-gradient(
       #076ba3,
+      #99d4f5,
       white
     );
 }
 
-.display-4 {
-  font-weight: bolder;
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-shadow: 4px 4px black;
 }
 
 .profile-photo {
-  width: 18%;
-  height: 18%;
-  border: 3px solid black;
-  border-radius: 5px;
+  width: 20%;
+  height: 95%;
+  border: 5px solid black;
+  border-radius: 15px;
 }
 
+.about-div {
+  opacity: 0.9;
+  color: black;
+  border: 5px solid black;
+  border-radius: 15px;
+}
 
+i {
+  color:white;
+}
 
-/* <a href="https://www.vecteezy.com/free-vector/pattern-background">Pattern Background Vectors by Vecteezy</a> */
+.fa-3x:hover {
+  color:#076ba3;
+}
 
+h4 {
+  color:white;
+}
 
-
+footer {
+  font-size: .5em;
+}
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
-
-  }
 @media (max-width: 768px) {
-  
+  .display-4 {
+    font-size: 200%;
+  }
+
 }
 @media (max-width: 576px) {
-  
-}
+  .display-4 {
+    font-size: 160%;
+  }
 
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
+  .profile-photo {
+    width: 45%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
 }
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
-}
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
-}
-
-
 
 
 
 /*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
 
