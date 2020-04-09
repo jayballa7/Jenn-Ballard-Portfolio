@@ -44,45 +44,28 @@ html, body {
   padding-bottom: 2rem;
 }
 
-.welcome {
+.display-4 {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
   text-shadow: 5px 5px black;
 }
 
-.profile-photo {
-  width: 20%;
-  height: 95%;
-  border: 5px solid black;
-  border-radius: 15px;
-  box-shadow: 10px 10px 10px black;
+.h4 {
+    font-size: x-large;
+    text-shadow: 2px 2px black;
 }
 
-.about-div {
-  opacity: 0.9;
-  color: black;
-  border: 5px solid black;
-  border-radius: 15px;
-  box-shadow: 12px 12px 12px black;
+.form-control {
+        border: solid 2px black;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px black;
 }
 
-i {
-  color:white;
-  box-shadow: 10px 10px 10px black;
-}
-
-.fa-3x:hover {
-  color:#076ba3;
-}
-
-h4 {
-  color:white;
-  text-shadow: 4px 4px black;
-}
-
-footer {
-  font-size: .5em;
+.btn {
+    border: solid 3px black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black; 
 }
 
 /*---Media Queries --*/
@@ -94,23 +77,13 @@ footer {
 }
 @media (max-width: 576px) {
 
-  html, body {
-    background-image: url('../img/odesza-smaller.jpg');
-    background-size: 150vh;
-  }
-
+    html, body {
+        background-image: url('../img/odesza-smaller.jpg');
+        background-size: 150vh;
+      }
+      
   .display-4 {
     font-size: 160%;
   }
 
-  .profile-photo {
-    width: 45%;
-    height: 100%;
-    border: 3px solid black;
-    border-radius: 10px;
-  }
 }
-
-
-
-

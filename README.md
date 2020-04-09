@@ -16,9 +16,12 @@ List of features ready:
 * Responsive design built with Bootstrap and custom HTML and CSS.
 * About Me page displays info about me as well as links to my GitHub, LinkedIn, and Resume.
 * Portfolio page displays different projects I have worked on and provides links to the apps and repositories.
+* Contact page includes a contact form with field validation.
 
 ## Status
-Still need to make a contact page.
+Update:
+* Added more projects to Portfolio page. 
+* Contact Page added. Not yet fully functional.
 
 ## Contact
 Created by Jennifer Ballard (@jayballa7).
