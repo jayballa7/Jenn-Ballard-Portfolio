@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-/* html, body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  color: white;
-  background-image: url('../img/odesza.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 250vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-} */
 
 html, body {
   margin: 0;
@@ -93,19 +78,9 @@ div.card {
     font-size: 200%;
   }
 
-  /* html, body {
-    background-image: url('../img/odesza-smaller.jpg');
-    background-size: 500vh;
-  } */
-
 }
 @media (max-width: 576px) {
 
-    /* html, body {
-        background-size: 100vh;
-        background-repeat: repeat;
-      } */
-      
   .display-4 {
     font-size: 160%;
   }
