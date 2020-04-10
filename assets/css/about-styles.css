@@ -94,10 +94,10 @@ footer {
 }
 @media (max-width: 576px) {
 
-  html, body {
+  /* html, body {
     background-image: url('../img/odesza-smaller.jpg');
-    background-size: 150vh;
-  }
+    background-size: 250vh;
+  } */
 
   .display-4 {
     font-size: 160%;
