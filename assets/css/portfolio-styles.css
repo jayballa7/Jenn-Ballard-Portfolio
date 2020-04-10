@@ -10,7 +10,7 @@ html, body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 250vh;
+  background-size: 500vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -70,26 +70,6 @@ div.card {
 
 }
 @media (max-width: 576px) {
-
-    html, body {
-        background-size: 300vh;
-        background-color: blue;
-      }
-      
-
-    /* html, body {
-        background-image: url('../img/odesza-smaller.jpg');
-        background-size: 150vh;
-      }
-       */
-/* 
-       html, body { 
-        background: url(../img/odesza.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      }   */
 
 
   .display-4 {
