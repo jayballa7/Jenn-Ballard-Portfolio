@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 html, body {
-  height: 100%;
-  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   color: white;
+  background: transparent;
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
   background-image: url('../img/odesza.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 250vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
 }
 
 .navbar {
