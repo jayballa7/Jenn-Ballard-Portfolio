@@ -76,14 +76,14 @@ div.card {
         background-size: 150vh;
       }
        */
-
-       html { 
+/* 
+       html, body { 
         background: url(../img/odesza.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-      }  
+      }   */
 
   .display-4 {
     font-size: 160%;
