@@ -71,6 +71,11 @@ div.card {
 }
 @media (max-width: 576px) {
 
+    html, body {
+        background-size: 300vh;
+      }
+      
+
     /* html, body {
         background-image: url('../img/odesza-smaller.jpg');
         background-size: 150vh;
@@ -84,6 +89,7 @@ div.card {
         -o-background-size: cover;
         background-size: cover;
       }   */
+
 
   .display-4 {
     font-size: 160%;
