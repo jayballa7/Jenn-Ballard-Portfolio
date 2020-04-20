@@ -72,6 +72,11 @@ div.card {
     border-bottom: 3px solid black;
 }
 
+.card-title {
+  color: #4d015c;
+  font-weight: bold;
+}
+
 /*---Media Queries --*/
 @media (max-width: 768px) {
   .display-4 {
